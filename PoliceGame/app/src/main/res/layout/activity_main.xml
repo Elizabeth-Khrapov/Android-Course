@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen"
+    android:background="@drawable/car_david">
+
+
+    <TextView
+        android:id="@+id/start_LBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Police Chase"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textSize="45dp"
+        android:textColor="@color/orange"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/Exit_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_below="@id/manual_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:background="@color/transparent"
+        android:text="EXIT"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/sensor_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start_LBL"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="70dp"
+        android:background="@color/transparent"
+        android:text="Sensor mode"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/manual_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sensor_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:background="@color/transparent"
+        android:text="manual mode"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
